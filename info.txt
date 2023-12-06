@@ -1,0 +1,9 @@
+Font:
+Roboto
+
+Colors:
+black: #100f14
+grey: #575861
+purple: #655ce5
+blue: #8de3da
+red: #ea6c62

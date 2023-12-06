@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --color-black: #100f14;
+    --color-white: #ffff;
+    --color-grey: #575861;
+    --color-purple: #655ce5;
+    --color-blue: #8de3da;
+    --color-red: #ea6c62;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+body {
+    font-family: 'Roboto' serif;
+    background-color: var(--color-black);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to full viewport height */
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 50px;
+}
+
+.logo {
+    font-size: 4rem;
+}
+
+/* Style the navigation links */
+.element-1 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: auto;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Style the search bar and icons in Element 1 */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-grey);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    background: transparent;
+    color: #fff;
+    width: 120px;
+    padding: 5px;
+}
+
+/* Style the filter icon */
+.ri-filter-2-fill {
+    margin-left: 10px;
+}
+
+
+/* Style Element 2 icon */
+.element-2 {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 auto;
+    margin-left: 215px;
+}
+
+.ri-switch-line {
+    font-size: 4rem;
+}
+
+/* Style Element 3 icons and buttons */
+.element-3 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.shopping-icon,
+.sign-up,
+.sign-in {
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign-in {
+    margin-right: 0;
+}
+
+/* Center the entire content */
+.center-container {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 350px); /* Subtract navbar height */
+    text-align: center;
+    margin: 0 20rem;
+}
+
+/* Style the container contents */
+.container-link {
+    color: var(--color-grey);
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.container-link span {
+    color: rgb(210, 210, 3);
+}
+
+.container-title {
+    color: var(--color-white);
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.container-paragraph {
+    color: var(--color-grey);
+    font-size: 20px;
+}
+
+.container-image img {
+    width: 100%;
+    margin: -6rem 2rem;
+
+}
